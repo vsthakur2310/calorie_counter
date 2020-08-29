@@ -19,7 +19,7 @@ import DisplayFoodTable from "./DisplayFoodData";
 
 function FoodClicked({ foodClicked }) {
   if (foodClicked > 0) {
-    return <h4 className ="upperhead">Calories consumed today : {foodClicked} </h4>;
+    return <h4 className ="upperhead">Total calories consumed today : {foodClicked} </h4>;
   } else {
     return <h4 className ="upperhead" >Calorie consumption zero :)</h4>;
   }
