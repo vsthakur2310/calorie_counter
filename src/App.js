@@ -21,7 +21,7 @@ function FoodClicked({ foodClicked }) {
   if (foodClicked > 0) {
     return <h4 className ="upperhead">Calories consumed today : {foodClicked} </h4>;
   } else {
-    return <h4 className ="upperhead" >No Calories Burnt</h4>;
+    return <h4 className ="upperhead" >Calorie consumption zero :)</h4>;
   }
 }
 export default class App extends React.Component {
